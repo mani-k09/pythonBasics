@@ -22,6 +22,10 @@ def scope_check(local_varibale):
     print(f"localVaribale:  { local_varibale}")
     print("inside function :" + my_var)
 
+def testPrint():
+    print(f"print the multiplication of {10 * 5}")
+
+testPrint()
 calculate_units()
 calculate_units_runtime(10)
 calculate_unit_with_message(10,"This is Great !")
